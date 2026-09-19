@@ -1,0 +1,512 @@
+{
+  "python": [
+    {
+      "question": "Какой тип данных в Python является неизменяемым?",
+      "options": ["list", "tuple", "dict", "set"],
+      "answer": 1
+    },
+    {
+      "question": "Какой оператор используется для целочисленного деления?",
+      "options": ["/", "//", "%", "**"],
+      "answer": 1
+    },
+    {
+      "question": "Какой метод добавляет элемент в конец списка?",
+      "options": ["add()", "insert()", "append()", "push()"],
+      "answer": 2
+    },
+    {
+      "question": "Что выведет print(type([]))?",
+      "options": ["<class 'list'>", "<class 'tuple'>", "<class 'dict'>", "<class 'array'>"],
+      "answer": 0
+    },
+    {
+      "question": "Какой блок используется для обработки исключений?",
+      "options": ["try/except", "if/else", "do/catch", "begin/rescue"],
+      "answer": 0
+    },
+    {
+      "question": "Что такое PEP 8?",
+      "options": ["Версия Python", "Руководство по стилю кода", "Библиотека", "Менеджер пакетов"],
+      "answer": 1
+    },
+    {
+      "question": "Какой результат у выражения 3 ** 2?",
+      "options": ["6", "9", "5", "8"],
+      "answer": 1
+    },
+    {
+      "question": "Какая функция возвращает длину объекта?",
+      "options": ["size()", "count()", "len()", "length()"],
+      "answer": 2
+    },
+    {
+      "question": "Что делает ключевое слово yield?",
+      "options": ["Завершает функцию", "Возвращает значение и приостанавливает функцию", "Импортирует модуль", "Создаёт поток"],
+      "answer": 1
+    },
+    {
+      "question": "Какой тип данных используется для хранения пар ключ-значение?",
+      "options": ["list", "tuple", "dict", "set"],
+      "answer": 2
+    },
+    {
+      "question": "Какой модуль используется для работы с регулярными выражениями?",
+      "options": ["regex", "re", "regexp", "pattern"],
+      "answer": 1
+    },
+    {
+      "question": "Что вернёт bool([])?",
+      "options": ["True", "False", "None", "Ошибку"],
+      "answer": 1
+    },
+    {
+      "question": "Какой оператор проверяет принадлежность элемента к коллекции?",
+      "options": ["is", "in", "of", "has"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое list comprehension?",
+      "options": ["Генерация списка в одну строку", "Сортировка списка", "Копирование списка", "Удаление списка"],
+      "answer": 0
+    },
+    {
+      "question": "Какой метод удаляет последний элемент списка?",
+      "options": ["delete()", "remove()", "pop()", "clear()"],
+      "answer": 2
+    },
+    {
+      "question": "Что делает функция isinstance()?",
+      "options": ["Проверяет тип объекта", "Создаёт объект", "Удаляет объект", "Копирует объект"],
+      "answer": 0
+    },
+    {
+      "question": "Какой из этих типов изменяемый (mutable)?",
+      "options": ["str", "tuple", "int", "list"],
+      "answer": 3
+    },
+    {
+      "question": "Что такое GIL?",
+      "options": ["Global Interpreter Lock", "General Input Layer", "Graphic Interface Library", "Git Integration Layer"],
+      "answer": 0
+    },
+    {
+      "question": "Какой оператор используется для возведения в степень?",
+      "options": ["^", "**", "//", "%%"],
+      "answer": 1
+    },
+    {
+      "question": "Что делает декоратор @staticmethod?",
+      "options": ["Делает метод статическим", "Делает метод приватным", "Удаляет метод", "Кэширует метод"],
+      "answer": 0
+    }
+  ],
+  "cpp": [
+    {
+      "question": "Какой оператор используется для вывода в консоль?",
+      "options": ["print", "cout <<", "console.log", "echo"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое указатель?",
+      "options": ["Переменная, хранящая адрес памяти", "Тип данных", "Функция", "Класс"],
+      "answer": 0
+    },
+    {
+      "question": "Какой заголовочный файл нужен для cout?",
+      "options": ["<stdio.h>", "<iostream>", "<conio.h>", "<string>"],
+      "answer": 1
+    },
+    {
+      "question": "Что делает оператор delete?",
+      "options": ["Удаляет переменную", "Освобождает память", "Очищает экран", "Удаляет файл"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое перегрузка функций?",
+      "options": ["Несколько функций с одним именем, но разными параметрами", "Замена функции", "Удаление функции", "Копирование функции"],
+      "answer": 0
+    },
+    {
+      "question": "Какой тип используется для хранения одного символа?",
+      "options": ["string", "char", "int", "bool"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое конструктор?",
+      "options": ["Метод для создания объекта", "Метод для удаления объекта", "Функция main", "Оператор"],
+      "answer": 0
+    },
+    {
+      "question": "Какой оператор используется для доступа к элементу массива?",
+      "options": ["()", "{}", "[]", "<>"],
+      "answer": 2
+    },
+    {
+      "question": "Что означает ключевое слово virtual?",
+      "options": ["Виртуальная функция для переопределения", "Статическая функция", "Приватная функция", "Константная функция"],
+      "answer": 0
+    },
+    {
+      "question": "Какой стандарт C++ добавил auto?",
+      "options": ["C++98", "C++11", "C++03", "C++14"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое namespace?",
+      "options": ["Область видимости для имён", "Тип данных", "Класс", "Функция"],
+      "answer": 0
+    },
+    {
+      "question": "Какой оператор используется для выделения памяти?",
+      "options": ["malloc", "new", "alloc", "create"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое ссылка (reference)?",
+      "options": ["Псевдоним переменной", "Указатель", "Копия", "Массив"],
+      "answer": 0
+    },
+    {
+      "question": "Какой метод у vector добавляет элемент в конец?",
+      "options": ["add()", "append()", "push_back()", "insert()"],
+      "answer": 2
+    },
+    {
+      "question": "Что делает ключевое слово const?",
+      "options": ["Делает переменную неизменяемой", "Делает переменную глобальной", "Удаляет переменную", "Копирует переменную"],
+      "answer": 0
+    },
+    {
+      "question": "Какой тип используется для строк в STL?",
+      "options": ["char[]", "string", "str", "text"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое шаблон (template)?",
+      "options": ["Обобщённое программирование", "Шаблон дизайна", "Функция", "Класс"],
+      "answer": 0
+    },
+    {
+      "question": "Какой оператор используется для наследования?",
+      "options": [":", "extends", "inherits", "->"],
+      "answer": 0
+    },
+    {
+      "question": "Что такое деструктор?",
+      "options": ["Метод для удаления объекта", "Метод для создания объекта", "Функция main", "Оператор"],
+      "answer": 0
+    },
+    {
+      "question": "Какой файл содержит точку входа программы?",
+      "options": ["main.cpp", "index.cpp", "start.cpp", "app.cpp"],
+      "answer": 0
+    }
+  ],
+  "java": [
+    {
+      "question": "Какой метод является точкой входа в Java-программе?",
+      "options": ["start()", "main()", "run()", "init()"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое JVM?",
+      "options": ["Java Virtual Machine", "Java Version Manager", "Java Variable Method", "Java Visual Model"],
+      "answer": 0
+    },
+    {
+      "question": "Какой тип данных используется для хранения целых чисел?",
+      "options": ["float", "int", "double", "char"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое наследование в Java?",
+      "options": ["Создание нового класса на основе существующего", "Копирование класса", "Удаление класса", "Импорт класса"],
+      "answer": 0
+    },
+    {
+      "question": "Какой модификатор делает поле доступным только внутри класса?",
+      "options": ["public", "private", "protected", "static"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое интерфейс?",
+      "options": ["Контракт с абстрактными методами", "Класс", "Переменная", "Пакет"],
+      "answer": 0
+    },
+    {
+      "question": "Какой оператор используется для сравнения объектов по значению?",
+      "options": ["==", "equals()", "compare()", "same()"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое ArrayList?",
+      "options": ["Динамический массив", "Статический массив", "Связный список", "Хэш-таблица"],
+      "answer": 0
+    },
+    {
+      "question": "Какой тип используется для хранения символов?",
+      "options": ["String", "char", "Character[]", "byte"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое исключение (Exception)?",
+      "options": ["Ошибка времени выполнения", "Ошибка компиляции", "Предупреждение", "Комментарий"],
+      "answer": 0
+    },
+    {
+      "question": "Какой блок используется для обработки исключений?",
+      "options": ["try/catch", "if/else", "do/while", "switch/case"],
+      "answer": 0
+    },
+    {
+      "question": "Что такое пакет (package) в Java?",
+      "options": ["Группа классов", "Один класс", "Метод", "Переменная"],
+      "answer": 0
+    },
+    {
+      "question": "Какой метод возвращает длину строки?",
+      "options": ["size()", "length()", "count()", "len()"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое поток (Thread)?",
+      "options": ["Часть выполнения программы", "Тип данных", "Класс", "Интерфейс"],
+      "answer": 0
+    },
+    {
+      "question": "Какой оператор используется для создания объекта?",
+      "options": ["create", "new", "alloc", "make"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое абстрактный класс?",
+      "options": ["Класс, который нельзя инстанцировать", "Класс без методов", "Класс без полей", "Интерфейс"],
+      "answer": 0
+    },
+    {
+      "question": "Какой сборщик мусора используется в Java?",
+      "options": ["Garbage Collector", "Memory Cleaner", "Auto Free", "Deleter"],
+      "answer": 0
+    },
+    {
+      "question": "Что такое JDK?",
+      "options": ["Java Development Kit", "Java Debug Kit", "Java Data Kit", "Java Design Kit"],
+      "answer": 0
+    },
+    {
+      "question": "Какой цикл гарантированно выполнится хотя бы раз?",
+      "options": ["for", "while", "do-while", "foreach"],
+      "answer": 2
+    },
+    {
+      "question": "Что такое перегрузка методов?",
+      "options": ["Методы с одинаковым именем, но разными параметрами", "Методы с разными именами", "Удаление методов", "Копирование методов"],
+      "answer": 0
+    }
+  ],
+  "algorithms": [
+    {
+      "question": "Какова сложность бинарного поиска?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "answer": 1
+    },
+    {
+      "question": "Какой алгоритм сортировки имеет среднюю сложность O(n log n)?",
+      "options": ["Bubble Sort", "Quick Sort", "Insertion Sort", "Selection Sort"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое рекурсия?",
+      "options": ["Вызов функцией самой себя", "Цикл", "Условие", "Массив"],
+      "answer": 0
+    },
+    {
+      "question": "Какова сложность линейного поиска?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+      "answer": 2
+    },
+    {
+      "question": "Что такое стек (Stack)?",
+      "options": ["LIFO структура", "FIFO структура", "Дерево", "Граф"],
+      "answer": 0
+    },
+    {
+      "question": "Что такое очередь (Queue)?",
+      "options": ["LIFO структура", "FIFO структура", "Дерево", "Граф"],
+      "answer": 1
+    },
+    {
+      "question": "Какой алгоритм используется для поиска кратчайшего пути в графе?",
+      "options": ["Dijkstra", "Bubble Sort", "Quick Sort", "Binary Search"],
+      "answer": 0
+    },
+    {
+      "question": "Что такое хэш-таблица?",
+      "options": ["Структура данных для быстрого доступа по ключу", "Связный список", "Дерево", "Массив"],
+      "answer": 0
+    },
+    {
+      "question": "Какова сложность доступа к элементу массива по индексу?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+      "answer": 0
+    },
+    {
+      "question": "Что такое связный список?",
+      "options": ["Структура из узлов с указателями", "Массив", "Дерево", "Хэш-таблица"],
+      "answer": 0
+    },
+    {
+      "question": "Какой алгоритм сортировки самый быстрый в среднем случае?",
+      "options": ["Bubble Sort", "Quick Sort", "Insertion Sort", "Selection Sort"],
+      "answer": 1
+    },
+    {
+      "question": "Что такое бинарное дерево поиска?",
+      "options": ["Дерево, где левый потомок меньше, правый больше", "Дерево с двумя корнями", "Граф", "Массив"],
+      "answer": 0
+    },
+    {
+      "question": "Какова сложность сортировки слиянием?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+      "answer": 2
+    },
+    {
+      "question": "Что такое динамическое программирование?",
+      "options": ["Метод решения задач через подзадачи", "Создание программ", "Отладка", "Компиляция"],
+      "answer": 0
+    },
+    {
+      "question": "Что такое жадный алгоритм?",
+      "options": ["Выбор лучшего варианта на каждом шаге", "Полный перебор", "Рекурсия", "Сортировка"],
+      "answer": 0
+    },
+    {
+      "question": "Какова сложность пузырьковой сортировки в худшем случае?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+      "answer": 3
+    },
+    {
+      "question": "Что такое обход графа в ширину (BFS)?",
+      "options": ["Обход по уровням", "Обход в глубину", "Сортировка", "Поиск"],
+      "answer": 0
+    },
+    {
+      "question": "Что такое обход графа в глубину (DFS)?",
+      "options": ["Обход с углублением", "Обход по уровням", "Сортировка", "Поиск"],
+      "answer": 0
+    },
+    {
+      "question": "Что такое Big O нотация?",
+      "options": ["Оценка сложности алгоритма", "Размер данных", "Тип данных", "Функция"],
+      "answer": 0
+    },
+    {
+      "question": "Какой алгоритм используется для сортировки за O(n log n) с гарантией?",
+      "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Selection Sort"],
+      "answer": 1
+    }
+  ],
+  "it_personalities": [
+    {
+      "question": "Кто создал язык Python?",
+      "options": ["Guido van Rossum", "James Gosling", "Bjarne Stroustrup", "Dennis Ritchie"],
+      "answer": 0
+    },
+    {
+      "question": "Кто создал язык C++?",
+      "options": ["Guido van Rossum", "James Gosling", "Bjarne Stroustrup", "Dennis Ritchie"],
+      "answer": 2
+    },
+    {
+      "question": "Кто создал язык Java?",
+      "options": ["Guido van Rossum", "James Gosling", "Bjarne Stroustrup", "Dennis Ritchie"],
+      "answer": 1
+    },
+    {
+      "question": "Кто создал язык C?",
+      "options": ["Guido van Rossum", "James Gosling", "Bjarne Stroustrup", "Dennis Ritchie"],
+      "answer": 3
+    },
+    {
+      "question": "Кто основал Microsoft?",
+      "options": ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Linus Torvalds"],
+      "answer": 1
+    },
+    {
+      "question": "Кто основал Apple?",
+      "options": ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Linus Torvalds"],
+      "answer": 0
+    },
+    {
+      "question": "Кто создал Linux?",
+      "options": ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Linus Torvalds"],
+      "answer": 3
+    },
+    {
+      "question": "Кто основал Facebook?",
+      "options": ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Linus Torvalds"],
+      "answer": 2
+    },
+    {
+      "question": "Кто считается отцом информатики?",
+      "options": ["Alan Turing", "Ada Lovelace", "John von Neumann", "Charles Babbage"],
+      "answer": 0
+    },
+    {
+      "question": "Кто первая программистка в истории?",
+      "options": ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton", "Hedy Lamarr"],
+      "answer": 0
+    },
+    {
+      "question": "Кто создал первый компилятор для языка COBOL?",
+      "options": ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton", "Hedy Lamarr"],
+      "answer": 1
+    },
+    {
+      "question": "Кто руководил разработкой ПО для Apollo 11?",
+      "options": ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton", "Hedy Lamarr"],
+      "answer": 2
+    },
+    {
+      "question": "Кто создал технологию Wi-Fi и Bluetooth?",
+      "options": ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton", "Hedy Lamarr"],
+      "answer": 3
+    },
+    {
+      "question": "Кто создал язык JavaScript?",
+      "options": ["Brendan Eich", "James Gosling", "Guido van Rossum", "Bjarne Stroustrup"],
+      "answer": 0
+    },
+    {
+      "question": "Кто создал язык PHP?",
+      "options": ["Rasmus Lerdorf", "Brendan Eich", "James Gosling", "Guido van Rossum"],
+      "answer": 0
+    },
+    {
+      "question": "Кто создал язык Ruby?",
+      "options": ["Yukihiro Matsumoto", "Rasmus Lerdorf", "Brendan Eich", "Guido van Rossum"],
+      "answer": 0
+    },
+    {
+      "question": "Кто создал язык Go?",
+      "options": ["Ken Thompson", "Rob Pike", "Robert Griesemer", "Все перечисленные"],
+      "answer": 3
+    },
+    {
+      "question": "Кто создал язык Rust?",
+      "options": ["Graydon Hoare", "Ken Thompson", "Brendan Eich", "Guido van Rossum"],
+      "answer": 0
+    },
+    {
+      "question": "Кто создал язык C#?",
+      "options": ["Anders Hejlsberg", "James Gosling", "Bjarne Stroustrup", "Brendan Eich"],
+      "answer": 0
+    },
+    {
+      "question": "Кто создал язык Kotlin?",
+      "options": ["JetBrains", "Google", "Oracle", "Microsoft"],
+      "answer": 0
+    }
+  ]
+}
