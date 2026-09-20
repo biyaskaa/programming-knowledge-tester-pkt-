@@ -6,6 +6,16 @@ from gui.start_frame import StartFrame
 from gui.quiz_frame import QuizFrame
 from gui.result_frame import ResultFrame
 
+import sys
+import os
+
+def resource_path(relative_path):
+    """Возвращает путь к файлу, работающий и в обычном режиме, и в PyInstaller."""
+    if getattr(sys, 'frozen', False):
+        base_path = sys._MEIPASS
+    else:
+        base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base_path, relative_path)
 
 class App(tk.Tk):
     def __init__(self):
@@ -13,9 +23,8 @@ class App(tk.Tk):
         self.title("Programming Knowledge Tester")
         self.geometry("700x450")
 
-        base = Path(__file__).parent.parent
-        self.questions_path = base / "data" / "questions.json"
-        self.all_questions = load_questions(str(self.questions_path), enc="utf-8")
+        self.questions_path = resource_path("data/questions.json")
+        self.all_questions = load_questions(self.questions_path, enc="utf-8")
 
         # место, где будет храниться текущая сессия Quiz
         self.quiz = None

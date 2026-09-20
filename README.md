@@ -38,3 +38,7 @@
 - │   └── results.json     # История результатов
 - ├── requirements.txt
 - └── README.md
+
+## .py to .exe
+#### Ввести в консоль `pyinstaller --onefile --windowed --name "QuizTester" --add-data "data;data" main.py`
+#### Создается папка dist, внутри которой и будет лежать .exe файл
